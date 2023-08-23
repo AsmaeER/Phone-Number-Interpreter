@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="4" failures="0" name="com.company.phonenumberinterpretationtest.PhoneNumberInterpreterTest" time="0.011" errors="0" skipped="0">
+  <properties>
+    <property name="jansi.mode" value="force"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11+28"/>
+    <property name="sun.boot.library.path" value="C:\Java\jdk-11\bin"/>
+    <property name="user.country.format" value="MA"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Asmae ER\Desktop\Omilia Test"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Asmae ER\Desktop\Omilia Test"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11+28"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ASMAEE~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\Asmae ER\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf10608969214183562074.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Java\jdk-11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/Asmae ER/Desktop/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729/jre/bin/server;C:/Users/Asmae ER/Desktop/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729/jre/bin;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\app\product\11.2.0\dbhome_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\Asmae ER\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.10;C:\app\product\11.2.0\dbhome_1\oc4j\j2ee\OC4J_DBConsole_localhost_orcl01;C:\Program Files (x86)\Odoo 14.0\python\python.exe;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\lib;C:\Program Files\opencv\build\include;C:\Program Files\opencv\build\x64\vc14\bin;C:\Program Files\opencv\build\x64\vc14\lib;C:\Program Files\opencv\build\x64\vc15\bin;C:\Program Files\opencv\build\x64\vc15\lib;C:\Program Files\dotnet\;C:\Users\Asmae ER\anaconda3;C:\Users\Asmae ER\anaconda3\Scripts;C:\Users\Asmae ER\anaconda3\Library\bin;C:\Users\Asmae ER\anaconda3\Lib\site-packages;C:\Windows\SysWOW64\msvcp71.dll;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\hadoop-3.2.4\bin;C:\hadoop-3.2.4\sbin;C:\Users\Asmae ER\Desktop\JADE-all-4.6.0\jade\lib\jade.jar;C:\Program Files\MongoDB\Server\5.0\bin;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Java\jdk-17.0.8\bin;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Users\Asmae ER\Desktop\php-8.2.8-Win32-vs16-x86\php.exe;C:\Users\Asmae ER\anaconda3;C:\Users\Asmae ER\anaconda3\Library\mingw-w64\bin;C:\Users\Asmae ER\anaconda3\Library\usr\bin;C:\Users\Asmae ER\anaconda3\Library\bin;C:\Users\Asmae ER\anaconda3\Scripts;C:\Users\Asmae ER\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\Asmae ER\AppData\Local\Programs\Python\Python35\;C:\Users\Asmae ER\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Asmae ER\AppData\Local\Programs\Python\Python310\;C:\Users\Asmae ER\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\bin;;C:\xampp\php;C:\nvm;C:\Program Files\nodejs;C:\Users\Asmae ER\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Asmae ER\AppData\Roaming\npm;C:\Program Files\Azure Data Studio\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\bin;;;C:\Program Files\Azure Data Studio\bin;C:\Users\Asmae ER\AppData\Local\ComposerSetup\bin;C:\Users\Asmae ER\AppData\Roaming\Composer\vendor\bin;C:\Users\Asmae ER\Desktop\eclipse;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Asmae ER"/>
+    <property name="user.timezone" value="Africa/Casablanca"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="windows-1252"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="Asmae ER"/>
+    <property name="java.class.path" value="C:\Users\Asmae ER\Desktop\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -Dstyle.color=always install"/>
+    <property name="java.home" value="C:\Java\jdk-11"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language.format" value="fr"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Asmae ER\Desktop\Omilia Test\EMBEDDED"/>
+    <property name="style.color" value="always"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2018-09-25"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="m2e.build.project.data.socket.port" value="49819"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.company.phonenumberinterpretationtest.PhoneNumberInterpreterTest" name="testValidatePhoneNumberInvalid10Digits" time="0.009"/>
+  <testcase classname="com.company.phonenumberinterpretationtest.PhoneNumberInterpreterTest" name="testInterpretNumberSequenceInvalidInput" time="0"/>
+  <testcase classname="com.company.phonenumberinterpretationtest.PhoneNumberInterpreterTest" name="testValidatePhoneNumberValid10Digits" time="0"/>
+  <testcase classname="com.company.phonenumberinterpretationtest.PhoneNumberInterpreterTest" name="testInterpretNumberSequenceValidInput" time="0.002"/>
+</testsuite>
